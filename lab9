@@ -1,0 +1,9 @@
+$ vi.firstfile.txt
+
+ $ git add firstfile.txt
+
+ $ git commit -m “added new file named first-file.txt to the master”
+
+ $ git log
+
+ $ git show <commit id
