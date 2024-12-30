@@ -1,0 +1,3 @@
+$ git log
+$ git tag V1.0<commit-hash>
+$ git tag
