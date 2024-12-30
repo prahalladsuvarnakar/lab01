@@ -1,0 +1,7 @@
+$ git clone < https://github.com/CSEdivB/gitlab3>
+$ ls
+ $ cd gitlab3
+$ cd gitlab3
+$ git fetch
+$ git rebase origin/main
+$ cat firstfile.txt
