@@ -1,0 +1,17 @@
+$ git branch b1
+ $ git switch b1
+
+ $ vi test.txt
+ $ git add test.txt
+ $ git commit -m “updating12”
+
+
+ $ git log
+
+ $ git switch main
+
+ $ git tag v1 <commit hash>
+ $ git tag v2 <commit hash>
+ $ git tag v3 <commit hash>
+
+ $ git cherry-pick v1^..v3
