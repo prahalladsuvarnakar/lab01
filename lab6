@@ -1,0 +1,9 @@
+$ git checkout -b feature-branch
+$ vi.firstfile.txt
+$ git add firstfile.txt
+$ git commit -m “added new file named first-file.txt to the master”
+$ git switch main
+$ cat firstfile.txt
+$ git merge feature-branch -m “updating all committed changes in
+the feature-branch into the main branch”
+$ cat firstfile.txt
